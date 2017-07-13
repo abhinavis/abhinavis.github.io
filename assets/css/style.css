@@ -1,0 +1,92 @@
+body{
+  font-family: "Graphik", "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+  line-height: 1;
+  background: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+/* Header */
+.header {
+  padding: 61px 0 100px 0;
+  overflow: hidden;
+}
+
+.logo{
+  color: #e6e6e6;
+  float: left;
+}
+
+ul.social{
+  float: right;
+}
+  ul.social li{
+    float: left;
+    padding: 0 0 0 30px;
+  }
+    ul.social li a{
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 16px;
+      display: block;
+    }
+
+/* Page */
+.page {
+  margin: 0;
+  padding: 0 200px 0 0;
+}
+
+  .greeting {
+    font-size: 20px;
+    color: #808080;
+    display: block;
+    padding: 0 0 15px 0;
+  }
+
+  .heading {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 60px;
+    padding: 0 0 30px 0;
+  }
+
+  .about {
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0 0 30px 0;
+    color: #e6e6e6;
+  }
+
+  .clients {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.24px;
+    color: #808080;
+  }
+
+@media only screen and (min-width: 0px) and (max-width: 999px) {
+
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .header {
+    padding: 60px;
+  }
+
+  .page {
+    padding: 0 60px 60px 60px;
+  }
+
+}
