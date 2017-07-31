@@ -44,7 +44,7 @@ ul.social{
 
   }
     ul.social li a{
-      color: #ffffff;
+      color: #808080;
       font-size: 14px;
       line-height: 16px;
       display: block;
@@ -98,7 +98,7 @@ ul.social{
     font-size: 48px;
     font-weight: lighter;
     letter-spacing: 0.5px;
-    line-height: 60px;
+    line-height: 62px;
     padding: 0 0 30px 0;
     -webkit-animation-delay: 1.2s;
   }
@@ -107,28 +107,28 @@ ul.social{
     font-size: 20px;
     letter-spacing: 0.3px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 32px;
     padding: 0 0 30px 0;
     color: #e6e6e6;
     -webkit-animation-delay: 1.6s;
   }
 
   .clients {
-    font-size: 16px;
-    line-height: 20px;
+    /*font-size: 16px;*/
+    /*line-height: 20px;*/
     letter-spacing: 0.24px;
     color: #808080;
     -webkit-animation-delay: 2s;
 
   }
-.page .clients a:hover, a:visited {
+.page .clients a:hover {
   text-decoration: underline;
   color: #ffffff;
-
-
 }
 
-@media only screen and (min-width: 0px) and (max-width: 999px) {
+
+
+@media only screen and (min-width: 481px) and (max-width: 999px) {
 
   .container {
     width: 100%;
@@ -139,12 +139,64 @@ ul.social{
     padding: 60px;
   }
 
-  .heading {
-    font-size: 36px;
-    line-height: 45px;
-  }
   .page {
     padding: 0 60px 60px 60px;
+  }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .header {
+    padding: 40px;
+  }
+
+  ul.social li a {
+    color: red;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-indent: -9999px;
+  }
+
+    ul.social li a.email {
+      background: url('../images/email.png') no-repeat top left;
+      background-size: 25px 20px;
+      width: 25px;
+    }
+
+    ul.social li a.dribbble {
+      background: url('../images/dribbble.png') no-repeat top left;
+      background-size: 20px 20px;
+    }
+
+    ul.social li a.twitter {
+      background: url('../images/twitter.png') no-repeat top left;
+      background-size: 25px 20px;
+      width: 25px;
+      height: 20px;
+    }
+
+  ul.social li a::before {
+    display: none;
+  }
+
+  .heading {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .greeting {
+    padding-top: 40px;
+  }
+
+  .page {
+    padding: 0 40px 40px 40px;
   }
 
 }
