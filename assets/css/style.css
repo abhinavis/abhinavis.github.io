@@ -123,7 +123,7 @@ ul.social{
   }
 .page .clients a:hover, a:visited {
   text-decoration: underline;
-  color: inherit;
+  color: #ffffff;
 
 
 }
@@ -141,6 +141,7 @@ ul.social{
 
   .heading {
     font-size: 36px;
+    line-height: 45px;
   }
   .page {
     padding: 0 60px 60px 60px;
